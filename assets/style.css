@@ -1,0 +1,36 @@
+body {
+background-image: url("/assets/bg.jpeg");
+background-size: contain;
+font-family: 'Reenie Beanie', cursive, monospace;
+font-size: 20px;
+}
+.container {
+    height: 100vh;
+    }
+
+img {
+    
+    border-radius: 50px;
+}
+.card {
+    background-color: rgb(26, 26, 26);
+    border-radius: 50px;
+    color:white;
+    opacity: 95%;
+}
+
+
+hr {
+    color:bisque;
+    background-color: bisque;
+    opacity: 50%;
+}
+
+@media only screen and (min-width: 844px) and (orientation: portrait)
+
+{ 
+  .card-deck {
+    flex-wrap: no-wrap;
+  }
+ }
+
